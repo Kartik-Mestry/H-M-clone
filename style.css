@@ -1,0 +1,287 @@
+@import url(https://db.onlinewebfonts.com/c/70f3e46b3bb904260d1b1a6e0f2edf08?family=HM+Sans+Regular);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #faf9f8;
+  font-family: "HM Sans Regular";
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  gap: 20px;
+  margin: -12px 44px;
+  font-size: 13px;
+  i {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+}
+
+.center img {
+  width: 112px;
+  margin: 12px 153px;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+  margin: -12px 44px;
+  font-size: 13px;
+  margin-right: 20px;
+  i {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+  margin-top: 26px;
+  font-weight: 500;
+  margin: 10px 148px;
+  padding: 20px 30px;
+  margin-left: 426px;
+  margin-top: 5px;
+  line-height: 16px;
+}
+
+.searchBar {
+  border-bottom: 1px solid black;
+  margin: 11px 54px;
+  display: flex;
+  input {
+    border: none;
+    outline: none;
+    padding: 5px;
+  }
+  i {
+    font-size: 20px;
+    margin: 11px 2px;
+  }
+}
+
+.offers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 200px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 13px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 960px;
+  height: 640px;
+  margin-top: 20px;
+  background-image: url(https://image.hm.com/content/dam/global_campaigns/season_00/divided/1050/1050-3x2-wicked-x-hm.jpg?imwidth=1536);
+  background-size: cover;
+}
+
+.msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "HM Sans Regular";
+  h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  button {
+    background-color: white;
+    border: none;
+    padding: 7px 10px;
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    margin: 20px 16px;
+    margin-bottom: 60px;
+  }
+}
+
+.image2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 960px;
+  height: 640px;
+  margin-top: 20px;
+  background-image: url(https://image.hm.com/content/dam/global_campaigns/season_00/ladies/6030-diwali/men/6030-Diwali-MEN-3x2.jpg?imwidth=1536);
+  background-size: cover;
+}
+
+.image3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 960px;
+  height: 640px;
+  margin-top: 20px;
+  background-image: url(https://image.hm.com/content/dam/global_campaigns/season_00/ladies/6030-diwali/6030-DIWALI-WOMEN-3x2-1-hm-festive-capsule-w.jpg?imwidth=1536);
+  background-size: cover;
+}
+
+.image4 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 960px;
+  height: 132px;
+  margin-top: 20px;
+  background-image: url(https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/6130-holiday-toolbox-2019/01-6130-holiday-TB-TB-3x1.jpg]&scale=size[960]&sink=format[jpeg]);
+  background-size: cover;
+  .msg2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "HM Sans Regular";
+    h2 {
+      color: white;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    p {
+      color: white;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 18px;
+    }
+    button {
+      background-color: white;
+      border: none;
+      padding: 7px 10px;
+      color: rgb(34, 34, 34);
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 600;
+      margin: 20px 16px;
+    }
+  }
+}
+
+.image5 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 960px;
+  height: 640px;
+  margin-top: 20px;
+  background-image: url(https://image.hm.com/content/dam/global_campaigns/season_00/ladies/6030-diwali/kids/6030-Kids-Diwali-3x2-1.jpg?imwidth=1536);
+  background-size: cover;
+}
+
+.image6 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 960px;
+  height: 640px;
+  margin-top: 20px;
+  background-image: url(https://image.hm.com/content/dam/hm/TOOLBOX/PRE_SEASON/2024/festive-diwali-home-2024/IN_Teaser2_HM_3x2_1620x1080.jpg?imwidth=1536);
+  background-size: cover;
+}
+
+.links {
+  background-color: #e4e4e4;
+  font-family: "HM Sans Regular";
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 64px 160px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e4e4e4;
+  font-family: "HM Sans Regular";
+  ul > li {
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+    margin: 20px 0px;
+    }
+  img {
+    width: 50px;
+    height: 35px;
+    margin-bottom: 25px;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    padding: 7px 10px;
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 16px;
+    margin-bottom: 100px;
+  }
+}
